@@ -1,8 +1,8 @@
 name: Build Android APK
 
-on:
+on: 
   push:
-    branches: [ "hlavni", "main" ]
+    branches: [ "*" ]
 
 jobs:
   build:
